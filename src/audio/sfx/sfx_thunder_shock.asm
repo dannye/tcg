@@ -1,53 +1,53 @@
 Sfx_ThunderShock_Ch1:
-	sfx_8 17
-	sfx_1 192
-	sfx_0 0, 81
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_0 0, 80
-	sfx_0 0, 81
-	sfx_1 128
-	sfx_0 0, 64
-	sfx_0 0, 65
-	sfx_0 0, 64
-	sfx_0 0, 64
-	sfx_0 0, 65
-	sfx_0 0, 64
-	sfx_0 0, 65
-	sfx_0 0, 64
-	sfx_1 64
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_0 0, 66
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_0 0, 66
-	sfx_0 0, 65
-	sfx_1 32
-	sfx_0 0, 49
-	sfx_0 0, 49
-	sfx_0 0, 50
-	sfx_0 0, 49
-	sfx_0 0, 50
-	sfx_0 0, 49
-	sfx_1 20
-	sfx_0 0, 50
-	sfx_0 0, 50
-	sfx_0 0, 51
-	sfx_0 0, 50
-	sfx_0 0, 51
-	sfx_0 0, 50
+	sfx_pan %00010001
+	sfx_env 12, 0
+	sfx_freq $51
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_freq $50
+	sfx_freq $51
+	sfx_env 8, 0
+	sfx_freq $40
+	sfx_freq $41
+	sfx_freq $40
+	sfx_freq $40
+	sfx_freq $41
+	sfx_freq $40
+	sfx_freq $41
+	sfx_freq $40
+	sfx_env 4, 0
+	sfx_freq $41
+	sfx_freq $41
+	sfx_freq $42
+	sfx_freq $41
+	sfx_freq $41
+	sfx_freq $42
+	sfx_freq $41
+	sfx_env 2, 0
+	sfx_freq $31
+	sfx_freq $31
+	sfx_freq $32
+	sfx_freq $31
+	sfx_freq $32
+	sfx_freq $31
+	sfx_env 1, 4
+	sfx_freq $32
+	sfx_freq $32
+	sfx_freq $33
+	sfx_freq $32
+	sfx_freq $33
+	sfx_freq $32
 	sfx_end

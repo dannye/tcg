@@ -1,5 +1,8 @@
 MACRO dn
+REPT _NARG / 2
 	db ((\1) << 4) | (\2)
+	SHIFT 2
+ENDR
 ENDM
 
 MACRO dbw

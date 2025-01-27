@@ -1,39 +1,39 @@
 Sfx_Paralysis_Ch1:
-	sfx_1 228
-	sfx_8 17
-	sfx_2 0
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 0
 	sfx_loop 7
-	sfx_0 7, 162
-	sfx_0 6, 137
-	sfx_0 7, 172
-	sfx_0 6, 178
+	sfx_freq $7a2
+	sfx_freq $689
+	sfx_freq $7ac
+	sfx_freq $6b2
 	sfx_endloop
-	sfx_1 143
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 162
-	sfx_0 6, 137
-	sfx_0 7, 172
-	sfx_0 6, 178
-	sfx_1 79
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 162
-	sfx_0 6, 137
-	sfx_0 7, 172
-	sfx_0 6, 178
-	sfx_1 47
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 162
-	sfx_0 6, 137
-	sfx_0 7, 172
-	sfx_0 6, 178
-	sfx_1 31
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 162
-	sfx_0 6, 137
-	sfx_0 7, 172
-	sfx_0 6, 178
+	sfx_env 8, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $7a2
+	sfx_freq $689
+	sfx_freq $7ac
+	sfx_freq $6b2
+	sfx_env 4, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $7a2
+	sfx_freq $689
+	sfx_freq $7ac
+	sfx_freq $6b2
+	sfx_env 2, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $7a2
+	sfx_freq $689
+	sfx_freq $7ac
+	sfx_freq $6b2
+	sfx_env 1, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $7a2
+	sfx_freq $689
+	sfx_freq $7ac
+	sfx_freq $6b2
 	sfx_end

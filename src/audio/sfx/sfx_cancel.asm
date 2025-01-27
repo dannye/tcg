@@ -1,32 +1,32 @@
 Sfx_Cancel_Ch1:
-	sfx_1 212
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 157
-	sfx_1 0
-	sfx_5 0
-	sfx_6 3
-	sfx_5 255
-	sfx_1 212
-	sfx_0 7, 107
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 212
-	sfx_0 7, 89
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 212
-	sfx_0 7, 79
-	sfx_1 100
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 167
-	sfx_1 52
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 167
+	sfx_env 13, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $79d
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 3
+	sfx_pitch_offset -1
+	sfx_env 13, 4
+	sfx_freq $76b
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 13, 4
+	sfx_freq $759
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 13, 4
+	sfx_freq $74f
+	sfx_env 6, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $7a7
+	sfx_env 3, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $7a7
 	sfx_end

@@ -1,25 +1,25 @@
 Sfx_PlacePrize_Ch1:
-	sfx_8 17
-	sfx_1 224
-	sfx_0 0, 64
-	sfx_0 0, 64
-	sfx_0 0, 64
-	sfx_0 0, 64
-	sfx_0 0, 64
-	sfx_1 128
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_1 64
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_1 32
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_1 20
-	sfx_0 0, 65
-	sfx_0 0, 65
-	sfx_0 0, 65
+	sfx_pan %00010001
+	sfx_env 14, 0
+	sfx_freq $40
+	sfx_freq $40
+	sfx_freq $40
+	sfx_freq $40
+	sfx_freq $40
+	sfx_env 8, 0
+	sfx_freq $41
+	sfx_freq $41
+	sfx_freq $41
+	sfx_env 4, 0
+	sfx_freq $41
+	sfx_freq $41
+	sfx_freq $41
+	sfx_env 2, 0
+	sfx_freq $41
+	sfx_freq $41
+	sfx_freq $41
+	sfx_env 1, 4
+	sfx_freq $41
+	sfx_freq $41
+	sfx_freq $41
 	sfx_end

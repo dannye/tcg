@@ -1,63 +1,63 @@
 Sfx_Leer_Ch1:
-	sfx_1 255
-	sfx_8 17
-	sfx_2 0
-	sfx_0 4, 22
-	sfx_0 4, 78
-	sfx_0 4, 131
-	sfx_0 4, 181
-	sfx_0 4, 229
-	sfx_0 4, 181
-	sfx_0 4, 131
-	sfx_0 4, 78
-	sfx_0 4, 22
-	sfx_0 4, 131
-	sfx_0 4, 181
-	sfx_0 4, 229
-	sfx_0 5, 17
-	sfx_0 5, 60
-	sfx_0 5, 17
-	sfx_0 4, 229
-	sfx_0 4, 181
-	sfx_0 4, 131
-	sfx_0 4, 229
-	sfx_0 5, 17
-	sfx_0 5, 60
-	sfx_0 5, 99
-	sfx_0 5, 137
-	sfx_0 5, 99
-	sfx_0 5, 60
-	sfx_0 5, 17
-	sfx_0 4, 229
-	sfx_1 143
-	sfx_8 17
-	sfx_2 0
-	sfx_0 5, 17
-	sfx_0 5, 60
-	sfx_0 5, 99
-	sfx_0 5, 137
-	sfx_0 5, 172
-	sfx_0 5, 205
-	sfx_0 5, 172
-	sfx_0 5, 137
-	sfx_0 5, 99
-	sfx_0 5, 60
-	sfx_0 5, 17
-	sfx_1 79
-	sfx_8 17
-	sfx_2 0
-	sfx_0 5, 99
-	sfx_0 5, 137
-	sfx_0 5, 172
-	sfx_0 5, 205
-	sfx_0 5, 237
-	sfx_1 47
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 11
-	sfx_0 6, 246
-	sfx_0 6, 231
-	sfx_0 6, 214
-	sfx_0 6, 196
-	sfx_0 6, 178
+	sfx_env 15, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $416
+	sfx_freq $44e
+	sfx_freq $483
+	sfx_freq $4b5
+	sfx_freq $4e5
+	sfx_freq $4b5
+	sfx_freq $483
+	sfx_freq $44e
+	sfx_freq $416
+	sfx_freq $483
+	sfx_freq $4b5
+	sfx_freq $4e5
+	sfx_freq $511
+	sfx_freq $53c
+	sfx_freq $511
+	sfx_freq $4e5
+	sfx_freq $4b5
+	sfx_freq $483
+	sfx_freq $4e5
+	sfx_freq $511
+	sfx_freq $53c
+	sfx_freq $563
+	sfx_freq $589
+	sfx_freq $563
+	sfx_freq $53c
+	sfx_freq $511
+	sfx_freq $4e5
+	sfx_env 8, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $511
+	sfx_freq $53c
+	sfx_freq $563
+	sfx_freq $589
+	sfx_freq $5ac
+	sfx_freq $5cd
+	sfx_freq $5ac
+	sfx_freq $589
+	sfx_freq $563
+	sfx_freq $53c
+	sfx_freq $511
+	sfx_env 4, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $563
+	sfx_freq $589
+	sfx_freq $5ac
+	sfx_freq $5cd
+	sfx_freq $5ed
+	sfx_env 2, -7
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $60b
+	sfx_freq $6f6
+	sfx_freq $6e7
+	sfx_freq $6d6
+	sfx_freq $6c4
+	sfx_freq $6b2
 	sfx_end

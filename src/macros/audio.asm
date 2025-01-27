@@ -149,16 +149,23 @@ MACRO music_end
 	db $ff
 ENDM
 
-MACRO sfx_0
-	db \1, \2
+; \1 = frequency value in Hz
+MACRO sfx_freq
+ASSERT \1 < $800
+	db HIGH(\1), LOW(\1)
 ENDM
 
-MACRO sfx_1
-	db $10, \1
+MACRO sfx_env
+	db $10
+	IF \2 < 0
+		dn \1, %1000 | (\2 * -1)
+	ELSE
+		dn \1, \2
+	ENDC
 ENDM
 
-MACRO sfx_2
-	db $20 | \1
+MACRO sfx_duty
+	db $20 | (\1 << 2)
 ENDM
 
 MACRO sfx_loop
@@ -169,15 +176,19 @@ MACRO sfx_endloop
 	db $40
 ENDM
 
-MACRO sfx_5
+MACRO sfx_pitch_offset
 	db $50, \1
 ENDM
 
-MACRO sfx_6
+MACRO sfx_wait
 	db $60, \1
 ENDM
 
-MACRO sfx_8
+MACRO sfx_wave
+	db $70 | \1
+ENDM
+
+MACRO sfx_pan
 	db $80, \1
 ENDM
 

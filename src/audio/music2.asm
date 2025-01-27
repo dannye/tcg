@@ -122,7 +122,7 @@ Music2_Init:
 	ld [wMusicPanning], a
 	xor a
 	ld [wdd8c], a
-	ld [wde53], a
+	ld [wSFXIsPlaying], a
 	ld [wMusicWaveChange], a
 	ld [wddef], a
 	ld [wddf0], a
@@ -1382,7 +1382,7 @@ Music2_f4866:
 	ld d, a
 	xor $ff
 	ld e, a
-	ld a, [hld]
+	ld a, [hld] ; wdd85
 	and d
 	ld d, a
 	ld a, [hl]

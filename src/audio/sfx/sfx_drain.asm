@@ -1,95 +1,95 @@
 Sfx_Drain_Ch1:
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 157
-	sfx_0 7, 190
-	sfx_0 7, 144
-	sfx_0 7, 182
-	sfx_0 7, 131
-	sfx_0 7, 172
-	sfx_0 7, 123
-	sfx_0 7, 162
-	sfx_0 7, 107
-	sfx_0 7, 157
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 57
-	sfx_0 7, 123
-	sfx_0 7, 33
-	sfx_0 7, 107
-	sfx_0 7, 5
-	sfx_0 7, 89
-	sfx_0 6, 246
-	sfx_0 7, 68
-	sfx_0 6, 214
-	sfx_0 7, 57
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
-	sfx_0 6, 246
-	sfx_0 6, 66
-	sfx_0 6, 214
-	sfx_0 6, 11
-	sfx_0 6, 178
-	sfx_0 5, 237
-	sfx_0 6, 137
-	sfx_0 5, 172
-	sfx_0 6, 114
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 190
-	sfx_0 7, 144
-	sfx_0 7, 182
-	sfx_0 7, 131
-	sfx_0 7, 172
-	sfx_0 7, 123
-	sfx_0 7, 162
-	sfx_0 7, 107
-	sfx_0 7, 157
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 33
-	sfx_0 7, 107
-	sfx_0 7, 5
-	sfx_0 7, 89
-	sfx_0 6, 246
-	sfx_0 7, 68
-	sfx_0 6, 214
-	sfx_0 7, 57
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
-	sfx_0 6, 214
-	sfx_0 6, 11
-	sfx_0 6, 178
-	sfx_0 5, 237
-	sfx_0 6, 137
-	sfx_0 5, 172
-	sfx_0 6, 114
-	sfx_1 132
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 114
-	sfx_0 6, 246
-	sfx_1 68
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 66
-	sfx_0 6, 214
-	sfx_1 36
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 11
-	sfx_0 6, 178
-	sfx_1 20
-	sfx_8 17
-	sfx_2 0
-	sfx_0 5, 237
-	sfx_0 6, 137
-	sfx_0 5, 172
-	sfx_0 6, 114
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $79d
+	sfx_freq $7be
+	sfx_freq $790
+	sfx_freq $7b6
+	sfx_freq $783
+	sfx_freq $7ac
+	sfx_freq $77b
+	sfx_freq $7a2
+	sfx_freq $76b
+	sfx_freq $79d
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $739
+	sfx_freq $77b
+	sfx_freq $721
+	sfx_freq $76b
+	sfx_freq $705
+	sfx_freq $759
+	sfx_freq $6f6
+	sfx_freq $744
+	sfx_freq $6d6
+	sfx_freq $739
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $6f6
+	sfx_freq $642
+	sfx_freq $6d6
+	sfx_freq $60b
+	sfx_freq $6b2
+	sfx_freq $5ed
+	sfx_freq $689
+	sfx_freq $5ac
+	sfx_freq $672
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $7be
+	sfx_freq $790
+	sfx_freq $7b6
+	sfx_freq $783
+	sfx_freq $7ac
+	sfx_freq $77b
+	sfx_freq $7a2
+	sfx_freq $76b
+	sfx_freq $79d
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $721
+	sfx_freq $76b
+	sfx_freq $705
+	sfx_freq $759
+	sfx_freq $6f6
+	sfx_freq $744
+	sfx_freq $6d6
+	sfx_freq $739
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $6d6
+	sfx_freq $60b
+	sfx_freq $6b2
+	sfx_freq $5ed
+	sfx_freq $689
+	sfx_freq $5ac
+	sfx_freq $672
+	sfx_env 8, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $672
+	sfx_freq $6f6
+	sfx_env 4, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $642
+	sfx_freq $6d6
+	sfx_env 2, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $60b
+	sfx_freq $6b2
+	sfx_env 1, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $5ed
+	sfx_freq $689
+	sfx_freq $5ac
+	sfx_freq $672
 	sfx_end

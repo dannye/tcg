@@ -1,49 +1,49 @@
 Sfx_StoneBarrage_Ch1:
-	sfx_8 17
-	sfx_1 223
+	sfx_pan %00010001
+	sfx_env 13, -7
 	sfx_loop 4
-	sfx_0 0, 80
-	sfx_0 0, 82
-	sfx_0 0, 80
-	sfx_0 0, 82
-	sfx_0 0, 80
-	sfx_0 0, 82
-	sfx_0 0, 80
-	sfx_0 0, 82
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
+	sfx_freq $50
+	sfx_freq $52
+	sfx_freq $50
+	sfx_freq $52
+	sfx_freq $50
+	sfx_freq $52
+	sfx_freq $50
+	sfx_freq $52
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
 	sfx_endloop
-	sfx_1 143
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_1 79
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_1 31
-	sfx_0 0, 112
-	sfx_0 0, 114
-	sfx_0 0, 112
-	sfx_0 0, 114
+	sfx_env 8, -7
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_env 4, -7
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
+	sfx_env 1, -7
+	sfx_freq $70
+	sfx_freq $72
+	sfx_freq $70
+	sfx_freq $72
 	sfx_end

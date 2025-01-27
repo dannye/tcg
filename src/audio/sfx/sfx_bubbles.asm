@@ -1,380 +1,380 @@
 Sfx_Bubbles_Ch1:
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 182
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 209
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 190
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 214
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 193
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 219
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 200
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 223
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 228
-	sfx_1 148
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 182
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 209
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 190
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 214
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 193
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 219
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 200
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 223
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 148
-	sfx_1 132
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 182
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 209
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 190
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 214
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 193
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 219
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 200
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 223
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 132
-	sfx_1 68
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 182
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 209
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 190
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 214
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 193
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 219
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 200
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 223
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 68
-	sfx_1 36
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 182
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 209
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 190
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 214
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 193
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 219
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 200
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 223
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 36
-	sfx_1 20
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 182
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 209
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 190
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 214
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 193
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 219
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 200
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 223
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
-	sfx_0 7, 206
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 20
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7b6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7d1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7be
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7d6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7c1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7db
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7c8
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7df
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 14, 4
+	sfx_env 9, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7b6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7d1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7be
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7d6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7c1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7db
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7c8
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7df
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 9, 4
+	sfx_env 8, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7b6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7d1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7be
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7d6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7c1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7db
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7c8
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7df
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 4
+	sfx_env 4, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7b6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7d1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7be
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7d6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7c1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7db
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7c8
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7df
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 4
+	sfx_env 2, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7b6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7d1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7be
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7d6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7c1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7db
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7c8
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7df
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 2, 4
+	sfx_env 1, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7b6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7d1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7be
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7d6
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7c1
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7db
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7c8
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7df
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
+	sfx_freq $7ce
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 1, 4
 	sfx_end

@@ -1,28 +1,28 @@
 Sfx_CardShuffle_Ch1:
-	sfx_8 17
+	sfx_pan %00010001
 	sfx_loop 2
-	sfx_1 240
-	sfx_0 0, 33
-	sfx_0 0, 33
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 240
-	sfx_1 128
-	sfx_0 0, 38
-	sfx_0 0, 38
-	sfx_0 0, 38
-	sfx_0 0, 38
-	sfx_1 32
-	sfx_0 0, 38
-	sfx_0 0, 38
-	sfx_0 0, 38
-	sfx_0 0, 38
-	sfx_1 0
-	sfx_5 0
-	sfx_6 2
-	sfx_5 255
-	sfx_1 32
+	sfx_env 15, 0
+	sfx_freq $21
+	sfx_freq $21
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 15, 0
+	sfx_env 8, 0
+	sfx_freq $26
+	sfx_freq $26
+	sfx_freq $26
+	sfx_freq $26
+	sfx_env 2, 0
+	sfx_freq $26
+	sfx_freq $26
+	sfx_freq $26
+	sfx_freq $26
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 2
+	sfx_pitch_offset -1
+	sfx_env 2, 0
 	sfx_endloop
 	sfx_end

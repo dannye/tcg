@@ -1,84 +1,84 @@
 Sfx_IntroOrbScatter_Ch1:
-	sfx_1 196
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 66
-	sfx_5 0
-	sfx_6 1
-	sfx_0 6, 178
-	sfx_6 1
-	sfx_0 6, 246
-	sfx_6 1
-	sfx_1 164
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 33
-	sfx_6 1
-	sfx_0 7, 89
-	sfx_6 1
-	sfx_0 7, 123
-	sfx_6 1
-	sfx_1 132
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 144
-	sfx_6 1
-	sfx_0 7, 172
-	sfx_6 1
-	sfx_0 7, 190
-	sfx_6 1
-	sfx_1 116
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 66
-	sfx_6 1
-	sfx_0 6, 178
-	sfx_6 1
-	sfx_0 6, 246
-	sfx_6 1
-	sfx_1 100
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 33
-	sfx_6 1
-	sfx_0 7, 89
-	sfx_6 1
-	sfx_0 7, 123
-	sfx_6 1
-	sfx_1 84
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 144
-	sfx_6 1
-	sfx_0 7, 172
-	sfx_6 1
-	sfx_0 7, 190
-	sfx_6 1
-	sfx_1 68
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 66
-	sfx_6 1
-	sfx_0 6, 178
-	sfx_6 1
-	sfx_0 6, 246
-	sfx_6 1
-	sfx_1 36
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 33
-	sfx_6 1
-	sfx_0 7, 89
-	sfx_6 1
-	sfx_0 7, 123
-	sfx_6 1
-	sfx_1 20
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 144
-	sfx_6 1
-	sfx_0 7, 172
-	sfx_6 1
-	sfx_0 7, 190
-	sfx_6 1
+	sfx_env 12, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $642
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_freq $6b2
+	sfx_wait 1
+	sfx_freq $6f6
+	sfx_wait 1
+	sfx_env 10, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $721
+	sfx_wait 1
+	sfx_freq $759
+	sfx_wait 1
+	sfx_freq $77b
+	sfx_wait 1
+	sfx_env 8, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $790
+	sfx_wait 1
+	sfx_freq $7ac
+	sfx_wait 1
+	sfx_freq $7be
+	sfx_wait 1
+	sfx_env 7, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $642
+	sfx_wait 1
+	sfx_freq $6b2
+	sfx_wait 1
+	sfx_freq $6f6
+	sfx_wait 1
+	sfx_env 6, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $721
+	sfx_wait 1
+	sfx_freq $759
+	sfx_wait 1
+	sfx_freq $77b
+	sfx_wait 1
+	sfx_env 5, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $790
+	sfx_wait 1
+	sfx_freq $7ac
+	sfx_wait 1
+	sfx_freq $7be
+	sfx_wait 1
+	sfx_env 4, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $642
+	sfx_wait 1
+	sfx_freq $6b2
+	sfx_wait 1
+	sfx_freq $6f6
+	sfx_wait 1
+	sfx_env 2, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $721
+	sfx_wait 1
+	sfx_freq $759
+	sfx_wait 1
+	sfx_freq $77b
+	sfx_wait 1
+	sfx_env 1, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $790
+	sfx_wait 1
+	sfx_freq $7ac
+	sfx_wait 1
+	sfx_freq $7be
+	sfx_wait 1
 	sfx_end

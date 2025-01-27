@@ -3134,7 +3134,7 @@ wde2b:: ; de2b
 wde2e:: ; de2e
 	ds $1
 
-wde2f:: ; de2f
+wSFXPitchOffsets:: ; de2f
 	ds $3
 
 wde32:: ; de32
@@ -3155,10 +3155,10 @@ wde3f:: ; de3f
 wde43:: ; de43
 	ds $8
 
-wde4b:: ; de4b
+wSFXCommandPointers:: ; de4b
 	ds $8
 
-wde53:: ; de53
+wSFXIsPlaying:: ; de53
 	ds $1
 
 wde54:: ; de54

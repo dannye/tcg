@@ -1,29 +1,29 @@
 Sfx_Beam_Ch1:
-	sfx_1 84
-	sfx_8 17
-	sfx_2 0
-	sfx_0 7, 186
-	sfx_0 7, 190
-	sfx_1 212
-	sfx_8 17
-	sfx_2 0
+	sfx_env 5, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $7ba
+	sfx_freq $7be
+	sfx_env 13, 4
+	sfx_pan %00010001
+	sfx_duty 0
 	sfx_loop 10
-	sfx_0 7, 131
-	sfx_0 7, 138
+	sfx_freq $783
+	sfx_freq $78a
 	sfx_endloop
-	sfx_1 228
-	sfx_8 17
-	sfx_2 4
+	sfx_env 14, 4
+	sfx_pan %00010001
+	sfx_duty 1
 	sfx_loop 10
-	sfx_0 7, 138
-	sfx_0 7, 157
+	sfx_freq $78a
+	sfx_freq $79d
 	sfx_endloop
-	sfx_1 100
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 157
-	sfx_1 52
-	sfx_8 17
-	sfx_2 4
-	sfx_0 7, 157
+	sfx_env 6, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $79d
+	sfx_env 3, 4
+	sfx_pan %00010001
+	sfx_duty 1
+	sfx_freq $79d
 	sfx_end

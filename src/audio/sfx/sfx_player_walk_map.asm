@@ -1,25 +1,25 @@
 Sfx_PlayerWalkMap_Ch1:
 	sfx_loop 50
-	sfx_1 164
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 66
-	sfx_0 6, 91
-	sfx_0 6, 114
-	sfx_0 5, 172
-	sfx_0 5, 137
-	sfx_1 100
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 178
-	sfx_1 52
-	sfx_8 17
-	sfx_2 0
-	sfx_0 6, 158
-	sfx_1 0
-	sfx_5 0
-	sfx_6 10
-	sfx_5 255
-	sfx_1 52
+	sfx_env 10, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $642
+	sfx_freq $65b
+	sfx_freq $672
+	sfx_freq $5ac
+	sfx_freq $589
+	sfx_env 6, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $6b2
+	sfx_env 3, 4
+	sfx_pan %00010001
+	sfx_duty 0
+	sfx_freq $69e
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 10
+	sfx_pitch_offset -1
+	sfx_env 3, 4
 	sfx_endloop
 	sfx_end

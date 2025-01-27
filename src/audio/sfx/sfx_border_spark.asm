@@ -1,34 +1,34 @@
 Sfx_BorderSpark_Ch1:
-	sfx_8 17
-	sfx_1 97
+	sfx_pan %00010001
+	sfx_env 6, 1
 	sfx_loop 2
-	sfx_0 0, 15
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 97
-	sfx_0 0, 45
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 97
+	sfx_freq $f
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 6, 1
+	sfx_freq $2d
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 6, 1
 	sfx_endloop
-	sfx_1 129
-	sfx_0 0, 15
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 129
-	sfx_1 65
-	sfx_0 0, 45
-	sfx_1 0
-	sfx_5 0
-	sfx_6 1
-	sfx_5 255
-	sfx_1 65
-	sfx_1 33
-	sfx_0 0, 15
+	sfx_env 8, 1
+	sfx_freq $f
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 8, 1
+	sfx_env 4, 1
+	sfx_freq $2d
+	sfx_env 0, 0
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_pitch_offset -1
+	sfx_env 4, 1
+	sfx_env 2, 1
+	sfx_freq $f
 	sfx_end

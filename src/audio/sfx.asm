@@ -11,13 +11,13 @@ SFX_Play:
 	add a
 	ld c, a
 	ld b, $0
-	ld a, [wde53]
+	ld a, [wSFXIsPlaying]
 	or a
-	jr z, .asm_fc019
+	jr z, .no_sfx_playing
 	call Func_fc279
-.asm_fc019
-	ld a, $1
-	ld [wde53], a
+.no_sfx_playing
+	ld a, TRUE
+	ld [wSFXIsPlaying], a
 	ld hl, SFXHeaderPointers
 	add hl, bc
 	ld a, [hli]
@@ -26,13 +26,13 @@ SFX_Play:
 	ld a, [hli]
 	ld [wdd8c], a
 	ld [wde54], a
-	ld de, wde4b
+	ld de, wSFXCommandPointers
 	ld c, $0
-.asm_fc031
+.loop_cmd_ptrs
 	ld a, [wde54]
 	rrca
 	ld [wde54], a
-	jr nc, .asm_fc050
+	jr nc, .skip_cmd_ptr
 	ld a, [hli]
 	ld [de], a
 	inc de
@@ -40,22 +40,22 @@ SFX_Play:
 	ld [de], a
 	inc de
 	push hl
-	ld hl, wde2f
+	ld hl, wSFXPitchOffsets
 	add hl, bc
 	ld [hl], $0
 	ld hl, wde33
 	add hl, bc
 	ld [hl], $1
 	pop hl
-	jr .asm_fc052
-.asm_fc050
+	jr .next_cmd_ptr
+.skip_cmd_ptr
 	inc de
 	inc de
-.asm_fc052
+.next_cmd_ptr
 	inc c
 	ld a, $4
 	cp c
-	jr nz, .asm_fc031
+	jr nz, .loop_cmd_ptrs
 .invalidID
 	ret
 
@@ -83,16 +83,16 @@ SFX_Update:
 	dec a
 	jr z, .asm_fc082
 	ld [hl], a
-	call Func_fc18d
+	call SFX_ApplyPitchOffset
 	jr .asm_fc08d
 .asm_fc082
-	ld hl, wde4b
+	ld hl, wSFXCommandPointers
 	add hl, bc
 	add hl, bc
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	call Func_fc094
+	call ExecuteNextSFXCommand
 .asm_fc08d
 	inc c
 	ld a, c
@@ -100,7 +100,7 @@ SFX_Update:
 	jr nz, .asm_fc06c
 	ret
 
-Func_fc094:
+ExecuteNextSFXCommand:
 	ld a, [hl]
 	and $f0
 	swap a
@@ -120,15 +120,15 @@ Func_fc094:
 	jp hl
 
 SFX_CommandTable:
-	dw SFX_0
-	dw SFX_1
-	dw SFX_2
+	dw SFX_frequency
+	dw SFX_envelope
+	dw SFX_duty
 	dw SFX_loop
 	dw SFX_endloop
-	dw SFX_5
-	dw SFX_6
-	dw SFX_7
-	dw SFX_8
+	dw SFX_pitch_offset
+	dw SFX_wait
+	dw SFX_wave
+	dw SFX_pan
 	dw SFX_unused
 	dw SFX_unused
 	dw SFX_unused
@@ -138,12 +138,12 @@ SFX_CommandTable:
 	dw SFX_end
 
 SFX_unused:
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
-SFX_0:
-	ld d, a
+SFX_frequency:
+	ld d, a ; high
 	pop hl
-	ld a, [hli]
+	ld a, [hli] ; low
 	ld e, a
 	push hl
 	ld hl, wde37
@@ -156,13 +156,13 @@ SFX_0:
 	ld [hl], d
 	ld a, c
 	cp $3
-	jr nz, .asm_fc0e9
+	jr nz, .not_noise_channel
 	ld a, b
 	xor e
 	and $8
 	swap a
 	ld d, a
-.asm_fc0e9
+.not_noise_channel
 	pop bc
 	ld hl, wde2b
 	add hl, bc
@@ -186,7 +186,7 @@ SFX_0:
 	ld [hl], d
 	pop de
 Func_fc105:
-	ld hl, wde4b
+	ld hl, wSFXCommandPointers
 	add hl, bc
 	add hl, bc
 	ld [hl], e
@@ -194,7 +194,7 @@ Func_fc105:
 	ld [hl], d
 	ret
 
-SFX_1:
+SFX_envelope:
 	ld hl, wde2b
 	add hl, bc
 	ld a, $80
@@ -212,9 +212,9 @@ SFX_1:
 	ld l, a
 	ld [hl], e
 	pop hl
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
-SFX_2:
+SFX_duty:
 	swap a
 	ld e, a
 	ld hl, rNR11
@@ -226,7 +226,7 @@ SFX_2:
 	ld l, a
 	ld [hl], e
 	pop hl
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
 SFX_loop:
 	ld hl, wde43
@@ -243,7 +243,7 @@ SFX_loop:
 	ld [hl], a
 	ld l, e
 	ld h, d
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
 SFX_endloop:
 	ld hl, wde3f
@@ -259,30 +259,30 @@ SFX_endloop:
 	ld h, [hl]
 	ld l, a
 	pop de
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 .asm_fc162
 	pop hl
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
-SFX_5:
-	ld hl, wde2f
+SFX_pitch_offset:
+	ld hl, wSFXPitchOffsets
 	add hl, bc
 	ld e, l
 	ld d, h
 	pop hl
 	ld a, [hli]
 	ld [de], a
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
-SFX_6:
+SFX_wait:
 	ld a, c
 	cp $3
-	jr nz, .asm_fc17c
+	jr nz, .not_noise_channel
 	call Func_fc1cd
-	jr .asm_fc17f
-.asm_fc17c
-	call Func_fc18d
-.asm_fc17f
+	jr .applied_pitch_offset
+.not_noise_channel
+	call SFX_ApplyPitchOffset
+.applied_pitch_offset
 	ld hl, wde33
 	add hl, bc
 	ld e, l
@@ -294,18 +294,19 @@ SFX_6:
 	ld d, h
 	jp Func_fc105
 
-Func_fc18d:
-	ld hl, wde2f
+SFX_ApplyPitchOffset:
+	ld hl, wSFXPitchOffsets
 	add hl, bc
 	ld a, [hl]
 	or a
-	jr z, .asm_fc1cc
+	jr z, .no_pitch_offset
 	ld hl, wde37
 	add hl, bc
 	add hl, bc
 	bit 7, a
-	jr z, .asm_fc1aa
-	xor $ff
+	jr z, .positive
+; negative
+	xor $ff ; cpl
 	inc a
 	ld d, a
 	ld a, [hl]
@@ -313,9 +314,9 @@ Func_fc18d:
 	ld [hli], a
 	ld e, a
 	ld a, [hl]
-	sbc b
-	jr .asm_fc1b1
-.asm_fc1aa
+	sbc b ; b is 0
+	jr .got_result
+.positive
 	ld d, a
 	ld a, [hl]
 	add d
@@ -323,7 +324,7 @@ Func_fc18d:
 	ld e, a
 	ld a, [hl]
 	adc b
-.asm_fc1b1
+.got_result
 	ld [hl], a
 	ld hl, wde2b
 	add hl, bc
@@ -345,18 +346,18 @@ Func_fc18d:
 	ld a, e
 	ld [hli], a
 	ld [hl], d
-.asm_fc1cc
+.no_pitch_offset
 	ret
 
 Func_fc1cd:
 	ld hl, wde32
 	ld a, [hl]
 	or a
-	jr z, .asm_fc201
+	jr z, .no_pitch_offset
 	ld hl, wde3d
 	bit 7, a
-	jr z, .asm_fc1e5
-	xor $ff
+	jr z, .positive
+	xor $ff ; cpl
 	inc a
 	ld d, a
 	ld e, [hl]
@@ -364,7 +365,7 @@ Func_fc1cd:
 	sub d
 	ld [hl], a
 	jr .asm_fc1ea
-.asm_fc1e5
+.positive
 	ld d, a
 	ld e, [hl]
 	ld a, e
@@ -387,10 +388,10 @@ Func_fc1cd:
 	ld a, d
 	ld [hli], a
 	ld [hl], e
-.asm_fc201
+.no_pitch_offset
 	ret
 
-SFX_7:
+SFX_wave:
 	add a
 	ld d, $0
 	ld e, a
@@ -417,22 +418,22 @@ SFX_7:
 	ldh [rNR30], a
 	ld b, $0
 	pop hl
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
-SFX_8:
+SFX_pan:
 	pop hl
 	ld a, [hli]
 	push hl
 	push bc
 	inc c
-	ld e, $ee
-.asm_fc234
+	ld e, %11101110
+.loop_rotate_masks
 	dec c
-	jr z, .asm_fc23c
+	jr z, .got_masks
 	rlca
 	rlc e
-	jr .asm_fc234
-.asm_fc23c
+	jr .loop_rotate_masks
+.got_masks
 	ld d, a
 	ld hl, wdd85
 	ld a, [hl]
@@ -441,7 +442,7 @@ SFX_8:
 	ld [hl], a
 	pop bc
 	pop hl
-	jp Func_fc094
+	jp ExecuteNextSFXCommand
 
 SFX_end:
 	ld e, c
@@ -460,7 +461,7 @@ SFX_end:
 	rlca
 	add c
 	ld e, a
-	ld d, b
+	ld d, b ; 0
 	ld hl, rNR12
 	add hl, de
 	ld a, $8
@@ -473,7 +474,7 @@ SFX_end:
 
 Func_fc26c:
 	xor a
-	ld [wde53], a
+	ld [wSFXIsPlaying], a
 	ld [wSfxPriority], a
 	ld a, $80
 	ld [wCurSfxID], a

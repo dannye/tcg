@@ -1,12 +1,12 @@
 Sfx_Supersonic_Ch1:
-	sfx_8 17
+	sfx_pan %00010001
 	sfx_loop 20
-	sfx_1 193
-	sfx_0 0, 15
-	sfx_0 0, 45
-	sfx_0 0, 15
-	sfx_0 0, 45
-	sfx_0 0, 15
-	sfx_0 0, 45
+	sfx_env 12, 1
+	sfx_freq $f
+	sfx_freq $2d
+	sfx_freq $f
+	sfx_freq $2d
+	sfx_freq $f
+	sfx_freq $2d
 	sfx_endloop
 	sfx_end

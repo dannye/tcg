@@ -1,73 +1,73 @@
 Sfx_LegendaryCards_Ch1:
 	sfx_loop 5
-	sfx_8 17
-	sfx_1 55
-	sfx_2 0
-	sfx_0 7, 5
-	sfx_0 7, 20
-	sfx_0 7, 33
-	sfx_0 7, 45
-	sfx_0 7, 57
-	sfx_0 7, 68
-	sfx_0 7, 79
-	sfx_8 17
-	sfx_1 71
-	sfx_2 0
-	sfx_0 7, 89
-	sfx_0 7, 98
-	sfx_0 7, 107
-	sfx_0 7, 115
-	sfx_0 7, 123
-	sfx_8 17
-	sfx_1 87
-	sfx_2 4
-	sfx_0 7, 131
-	sfx_0 7, 138
-	sfx_0 7, 144
-	sfx_0 7, 151
-	sfx_0 7, 157
-	sfx_0 7, 162
-	sfx_0 7, 167
-	sfx_8 17
-	sfx_1 103
-	sfx_2 4
-	sfx_0 7, 172
-	sfx_0 7, 177
-	sfx_0 7, 182
-	sfx_0 7, 186
-	sfx_0 7, 190
-	sfx_8 17
-	sfx_1 87
-	sfx_2 4
-	sfx_0 7, 190
-	sfx_0 7, 186
-	sfx_0 7, 182
-	sfx_0 7, 177
-	sfx_0 7, 172
-	sfx_0 7, 167
-	sfx_8 17
-	sfx_1 71
-	sfx_2 4
-	sfx_0 7, 162
-	sfx_0 7, 157
-	sfx_0 7, 151
-	sfx_0 7, 144
-	sfx_0 7, 138
-	sfx_0 7, 131
-	sfx_8 17
-	sfx_1 55
-	sfx_2 0
-	sfx_0 7, 123
-	sfx_0 7, 115
-	sfx_0 7, 107
-	sfx_0 7, 98
-	sfx_0 7, 89
-	sfx_0 7, 79
-	sfx_0 7, 68
-	sfx_0 7, 57
-	sfx_0 7, 45
-	sfx_0 7, 33
-	sfx_0 7, 20
-	sfx_0 7, 5
+	sfx_pan %00010001
+	sfx_env 3, 7
+	sfx_duty 0
+	sfx_freq $705
+	sfx_freq $714
+	sfx_freq $721
+	sfx_freq $72d
+	sfx_freq $739
+	sfx_freq $744
+	sfx_freq $74f
+	sfx_pan %00010001
+	sfx_env 4, 7
+	sfx_duty 0
+	sfx_freq $759
+	sfx_freq $762
+	sfx_freq $76b
+	sfx_freq $773
+	sfx_freq $77b
+	sfx_pan %00010001
+	sfx_env 5, 7
+	sfx_duty 1
+	sfx_freq $783
+	sfx_freq $78a
+	sfx_freq $790
+	sfx_freq $797
+	sfx_freq $79d
+	sfx_freq $7a2
+	sfx_freq $7a7
+	sfx_pan %00010001
+	sfx_env 6, 7
+	sfx_duty 1
+	sfx_freq $7ac
+	sfx_freq $7b1
+	sfx_freq $7b6
+	sfx_freq $7ba
+	sfx_freq $7be
+	sfx_pan %00010001
+	sfx_env 5, 7
+	sfx_duty 1
+	sfx_freq $7be
+	sfx_freq $7ba
+	sfx_freq $7b6
+	sfx_freq $7b1
+	sfx_freq $7ac
+	sfx_freq $7a7
+	sfx_pan %00010001
+	sfx_env 4, 7
+	sfx_duty 1
+	sfx_freq $7a2
+	sfx_freq $79d
+	sfx_freq $797
+	sfx_freq $790
+	sfx_freq $78a
+	sfx_freq $783
+	sfx_pan %00010001
+	sfx_env 3, 7
+	sfx_duty 0
+	sfx_freq $77b
+	sfx_freq $773
+	sfx_freq $76b
+	sfx_freq $762
+	sfx_freq $759
+	sfx_freq $74f
+	sfx_freq $744
+	sfx_freq $739
+	sfx_freq $72d
+	sfx_freq $721
+	sfx_freq $714
+	sfx_freq $705
 	sfx_endloop
 	sfx_end

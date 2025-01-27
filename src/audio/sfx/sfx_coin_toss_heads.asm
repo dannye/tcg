@@ -1,30 +1,30 @@
 Sfx_CoinTossHeads_Ch1:
-	sfx_1 231
-	sfx_8 17
-	sfx_2 8
-	sfx_0 7, 172
-	sfx_0 7, 190
-	sfx_0 7, 200
-	sfx_0 7, 212
-	sfx_1 135
-	sfx_8 17
-	sfx_2 8
-	sfx_0 7, 212
-	sfx_5 0
-	sfx_6 1
-	sfx_1 71
-	sfx_8 17
-	sfx_2 8
-	sfx_0 7, 214
-	sfx_6 1
-	sfx_1 39
-	sfx_8 17
-	sfx_2 8
-	sfx_0 7, 214
-	sfx_6 1
-	sfx_1 23
-	sfx_8 17
-	sfx_2 8
-	sfx_0 7, 214
-	sfx_6 1
+	sfx_env 14, 7
+	sfx_pan %00010001
+	sfx_duty 2
+	sfx_freq $7ac
+	sfx_freq $7be
+	sfx_freq $7c8
+	sfx_freq $7d4
+	sfx_env 8, 7
+	sfx_pan %00010001
+	sfx_duty 2
+	sfx_freq $7d4
+	sfx_pitch_offset 0
+	sfx_wait 1
+	sfx_env 4, 7
+	sfx_pan %00010001
+	sfx_duty 2
+	sfx_freq $7d6
+	sfx_wait 1
+	sfx_env 2, 7
+	sfx_pan %00010001
+	sfx_duty 2
+	sfx_freq $7d6
+	sfx_wait 1
+	sfx_env 1, 7
+	sfx_pan %00010001
+	sfx_duty 2
+	sfx_freq $7d6
+	sfx_wait 1
 	sfx_end
